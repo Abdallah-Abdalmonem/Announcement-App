@@ -15,9 +15,16 @@ class AnnouncementsScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: const Color(0xff8110b9),
         centerTitle: true,
-        title: const Text('Student App'),
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset('assets/logo.jpg', width: 46, height: 46),
+            const SizedBox(width: 2),
+            const Text('Student App', style: TextStyle(color: Colors.white)),
+          ],
+        ),
       ),
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance
