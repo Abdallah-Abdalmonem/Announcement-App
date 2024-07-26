@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596189352325",
+    "project_id": "announcement-app-c6974",
+    "storage_bucket": "announcement-app-c6974.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596189352325:android:e7e00209c4f988048974ec",
+        "android_client_info": {
+          "package_name": "com.example.school_announcements"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdeGulkbGfGEIQw9abdfIUcvN01ZURNLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
